@@ -6,7 +6,7 @@ ENV VERSION=1.0
 ENV GIT_HOST=github.com
 
 # Install dependencies
-RUN apk add --no-cache openssh-client git
+RUN apk add --no-cache openssh-client git rsync
 
 # Create required files and directories
 RUN \
